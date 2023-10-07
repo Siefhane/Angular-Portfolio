@@ -1,0 +1,35 @@
+.INFO{
+    width: 12%;
+    text-align: center;
+    font-size: 15px;
+    height: 100%;
+
+}
+.skills p{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: -4px 6px 5px black;
+    text-transform: capitalize;
+}
+.data p{
+    color: rgb(255, 255, 255);
+}
+.MYBAR{
+    border-radius: 0;
+    height: 28px;
+    margin-bottom: 10px;
+}
+.fi{
+    margin-bottom: 20px;
+    width: 200px;
+    position: relative;
+    left: 28%;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid #ffffff;
+}
+.datafo{
+    color: rgb(255, 255, 255);
+}
+.datafo p{
+    margin: 20px;
+}

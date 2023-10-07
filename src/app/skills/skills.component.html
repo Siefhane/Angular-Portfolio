@@ -1,0 +1,27 @@
+<div class="container-fluid bg-dark">
+    <div class="container mb-5">
+        <div class="skills text-center my-5">
+            <p class="mt-5 pt-3">skills</p>
+        </div>
+        <div class="data text-center my-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit aliquid a ullam culpa autem, est fugiat alias ratione sapiente deserunt consectetur, dolores neque dicta. A similique id distinctio maxime beatae eveniet, ea quis harum recusandae corrupti quae, in unde eaque iure, illum pariatur! Itaque, odit? Nesciunt, expedita alias repellat minima ipsum omnis recusandae unde eos tempore asperiores at modi nostrum nobis porro error eveniet blanditiis quaerat, sed dolorem officiis. Qui.</p>
+        </div>
+        <div class="container-s row flex">
+            <div class="myfoucs col-md-5 align-items-center justify-content-center my-4">
+                <div class="fi align-items-center justify-content-center">
+                    <h3 class="text-center  text-uppercase">My Focus</h3>
+                </div>
+                <div class="datafo text-center text-captalize" *ngFor="let type of foucs;">
+                    <p>{{type.name}}</p>
+                </div>
+            </div>
+            <div class="value col-md-7 my-4">
+                <div class="progress MYBAR bg-dark-subtle" *ngFor="let skill of skills;" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <!-- <app-progressbar [skill]="skill"></app-progressbar> -->
+                    <div class="INFO bg-dark-subtle"><p>{{skill.name}}</p></div>
+                    <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated" [ngStyle]="{'width':skill.value}"></div>                                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

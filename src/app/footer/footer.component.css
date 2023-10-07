@@ -1,0 +1,17 @@
+p{
+    color: #ffffff;
+}
+label{
+    color: #ffffff;
+}
+.contact{
+    margin-top: 20px;
+    width: 130px;
+    height: 45px;
+    border-radius: 0;
+    
+}
+img{
+    width: 40px;
+    height: 40px;
+}

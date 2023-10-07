@@ -1,0 +1,34 @@
+section{
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.back-G{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title{
+    position: absolute;
+    top:16%;
+    left:10%;
+    color: aliceblue;
+}
+h1{
+    font-size: 75px;
+}
+.contact{
+    position: relative;
+    left: 20%;
+    margin-top: 20px;
+    width: 130px;
+    height: 45px;
+    border-radius: 0;
+    
+}

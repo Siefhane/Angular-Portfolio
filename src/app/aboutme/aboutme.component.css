@@ -1,0 +1,15 @@
+.about p{
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(43, 44, 43);
+    text-shadow: -4px 6px 5px black;
+}
+.p p{
+    font-family: 'Playfair Display', serif;
+}
+.p button{
+    font-family: 'Playfair Display', serif;
+    border-radius: 0;
+    height: 50px;
+    width: 200px;
+}
